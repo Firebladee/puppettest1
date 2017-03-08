@@ -1,0 +1,23 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    igromik-package (0.0.1)
+      puppetlabs-stdlib (>= 0)
+    puppet-nginx (0.6.0)
+      puppetlabs-apt (< 3.0.0, >= 2.1.0)
+      puppetlabs-concat (< 3.0.0, >= 1.2.5)
+      puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
+    puppetlabs-apt (2.3.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
+    puppetlabs-concat (2.2.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.2.0)
+    puppetlabs-firewall (1.8.2)
+    puppetlabs-stdlib (4.15.0)
+    puppetlabs-vcsrepo (1.5.0)
+
+DEPENDENCIES
+  igromik-package (>= 0)
+  puppet-nginx (>= 0)
+  puppetlabs-firewall (>= 0)
+  puppetlabs-vcsrepo (>= 0)
+

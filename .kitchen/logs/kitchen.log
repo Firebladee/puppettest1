@@ -1,0 +1,3 @@
+I, [2017-03-07T11:03:10.303767 #16918]  INFO -- Kitchen: -----> Starting Kitchen (v1.16.0)
+I, [2017-03-07T11:03:10.468570 #16918]  INFO -- Kitchen: -----> Destroying <puppet-puppetlabs-centos-66-64-nocm>...
+I, [2017-03-07T11:03:14.517194 #16918]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.21s)

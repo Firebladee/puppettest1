@@ -1,0 +1,15 @@
+---
+classes:
+  - nginx
+  - package
+  - firewall
+
+nginx::nginx_servers:
+  'test':
+    www_root: '/var/www/test'
+    listen_port: '8000'
+#    server_name: 'test'
+#    ensure: 'present'
+
+package::package:
+  git: {}

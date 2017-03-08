@@ -1,0 +1,27 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: puppet_apply
+  require_chef_for_busser: false
+  puppet_debug: false
+  puppet_verbose: false
+  manifests_path: manifests
+  manifest: site.pp
+  hiera_config_path: hiera.yaml
+  hiera_data_path: hieradata
+  modules_path: modules
+
+platforms:
+  - name: puppetlabs/centos-6.6-64-nocm
+    driver:
+      network:
+      - ["private_network", {ip: "172.16.32.10"}]
+      - ["forwarded_port", {guest: 8000, host: 8000}]
+
+suites:
+  - name: puppet
+
+verifier:
+  ruby_bindir: '/usr/bin'

@@ -1,0 +1,11 @@
+{
+  "LICENSE": "75f832dde5c1e63f0dfe87bc4bdbe84a",
+  "README.md": "9e51f7df585d852e119867049891cd02",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "manifests/init.pp": "e40e984263feccb2ef762968954789d0",
+  "manifests/package.pp": "ea82c46085fe73c7374b90e47e5af8fa",
+  "metadata.json": "6f71c975ce475d6676a720e96b997874",
+  "spec/classes/init_spec.rb": "88d27925b6ff4b8e577dd83467ee107f",
+  "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+  "tests/init.pp": "48cecfff949ff22ec7ad5a438a938602"
+}
